@@ -1,3 +1,4 @@
+
 # Homework 1
 
 rm(list=ls())  # clears all previous work
