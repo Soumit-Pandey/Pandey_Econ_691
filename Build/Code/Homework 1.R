@@ -2,9 +2,6 @@ rm(list=ls())  # clears all previous work
 
 # installing and loading packages:
 
-install.packages("tinyverse")
-libary(tinyverse)
-
 install.packages("tidyverse")
 library(tidyverse)
 
@@ -73,5 +70,5 @@ head(final.data)
 
 # saving the joined dataframe
 
-save(e.data.final,
+save(final.data,
      file = "./Build/Output/20-24 Election.RData")
